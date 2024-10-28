@@ -1,13 +1,11 @@
-#README
+# Sistema de Transações Bancárias com Concorrência de Saldo
 
-#Sistema de Transações Bancárias com Concorrência de Saldo
-
-##Descrição
+## Descrição
 
 Este sistema é uma implementação de um sistema de contas bancárias utilizando Django e Django Rest Framework.
 Ele permite criar contas, realizar depósitos, saques e transferências entre contas.
 
-##Requisitos
+## Requisitos
 
 - Python 3.8+
 - Django 3.2+
@@ -15,39 +13,39 @@ Ele permite criar contas, realizar depósitos, saques e transferências entre co
 
 Instalação
 
-##1. Clone o repositório:
+## 1. Clone o repositório:
 
 ```bash
 git clone git@github.com:lfstos/banco.git
 ```
 
-##1. Crie um ambiente virtual:
+## 1. Crie um ambiente virtual:
 
 ```bash
 python -m venv .venv
 ```
 
-##1. Ative o ambiente virtual:
+## 1. Ative o ambiente virtual:
 
 ```bash
 source .venv/bin/activate
 ```
 
-##1. Instale as dependências:
+## 1. Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-##1. Rode as migrações:
+## 1. Rode as migrações:
 
 ```bash
 python manage.py migrate
 ```
 
-#Exemplo de Uso
+# Exemplo de Uso
 
-##Criar Conta
+## Criar Conta
 
 - URL: http://localhost:8000/contas/
 - Método: POST
@@ -69,7 +67,7 @@ python manage.py migrate
 }
 ```
 
-##Realizar Depósito
+## Realizar Depósito
 
 - URL: http://localhost:8000/transacoes/
 - Método: POST
@@ -91,7 +89,7 @@ python manage.py migrate
 }
 ```
 
-##Realizar Saque
+## Realizar Saque
 
 - URL: http://localhost:8000/transacoes/
 - Método: POST
@@ -113,7 +111,7 @@ python manage.py migrate
 }
 ```
 
-##Realizar Transferência
+## Realizar Transferência
 
 - URL: http://localhost:8000/transacoes/
 - Método: POST
@@ -145,7 +143,7 @@ python manage.py migrate
 }
 ```
 
-##Realizar Sistema de Transações Bancárias com Concorrência de Saldo
+## Realizar Sistema de Transações Bancárias com Concorrência de Saldo
 
 - URL: http://localhost:8000/transacoes/
 - Método: POST
@@ -179,9 +177,9 @@ python manage.py migrate
 }
 ```
 
-#Rodar o Sistema
+# Rodar o Sistema
 
-##1. Rode o servidor:
+## 1. Rode o servidor:
 
 ```bash
 python manage.py runserver
